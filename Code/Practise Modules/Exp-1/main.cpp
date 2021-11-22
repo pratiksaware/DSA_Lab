@@ -1,10 +1,9 @@
 #include<iostream>
-#include<Code\Practise Modules\Exp-1\utilites\functionality.h>
+#include<E:\github repo's\DSA _Lab-Repo\Code\Practise Modules\Exp-1\utilites\functionality.h>
 using namespace std;
 
 int main(){
-    student s[100] = student(45, "Varun", 9.9);
-    display();
-    
+    student s = student(56, "Varun", 9.4);
+
     return 0;
 }
