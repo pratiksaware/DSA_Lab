@@ -28,15 +28,15 @@ void BST::create_tree()
 {
 int tbooks, tchapters, i, j, k;
 root = new node();
-cout << "Enter name of book";
+cout << "Enter name of book ";
 cin >> root->label;
-cout << "Enter no. of chapters in book";
+cout << "Enter no. of chapters in book ";
 cin >> tchapters;
 root->ch_count = tchapters;
 for (i = 0; i < tchapters; i++)
 {
 root->child[i] = new node;
-cout << "Enter Chapter name\n";
+cout << "Enter Chapter name \n";
 cin >> root->child[i]->label;
 cout << "Enter no. of sections in Chapter: " << root->child[i]->label;
 cin >> root->child[i]->ch_count;
