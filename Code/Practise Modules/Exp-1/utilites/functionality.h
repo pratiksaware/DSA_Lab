@@ -23,6 +23,7 @@ class student
         cout<<"STUDENT NAME:\t"<< name<<"\t ROLL NO:\t"<<roll_num<<"\tSGPA:\t"<<sgpa;
     }
     void bubble_sort(){
+        fo
         
     }
 };

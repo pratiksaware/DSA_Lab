@@ -12,18 +12,18 @@ int count,key;
 class bst
 {
 public:
-void create();
-void insert(node*,node*);
-void disin(node*);
-void dispre(node*);
-void dispost(node*);
-void search(node*,int);
+    void create();
+    void insert(node*,node*);
+    void disin(node*);
+    void dispre(node*);
+    void dispost(node*);
+    void search(node*,int);
 
 
 
-int height(node*);
-void mirror(node*);
-void min(node*);
+    int height(node*);
+    void mirror(node*);
+    void min(node*);
 bst()
 {
 root=NULL;
